@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(181, 110, 110);
+    margin-left: 100px;
+}
+
+h5{
+    color: rgba(181, 110, 110, 0.632);
+    margin-left: 100px;
+}
+
+h2{
+    color: rgb(91, 123, 105);
+    margin-left: 100px}
+
+p{
+    color: rgb(123, 164, 141); 
+    margin-left: 100px;
+    margin-right: 100px}
