@@ -1,3 +1,7 @@
+.logo{
+    color: rgba(181, 110, 110, 0.632);
+    text-decoration: none;  
+}
 header{
 
   background-image: url('../images/loveyousomatcha.jpg');
@@ -9,7 +13,12 @@ header{
 }
 h1 {
     color: rgb(181, 110, 110);
-    margin-left: 100px;
+    text-align: right;
+}
+
+h5{
+    color: rgba(181, 110, 110, 0.632);
+    text-align: right;
 }
 
 h2{
