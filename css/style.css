@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(252, 232, 232);
+}
+
+
 h1 {
     color: rgb(181, 110, 110);
     margin-left: 100px;
@@ -15,4 +20,6 @@ h2{
 p{
     color: rgb(123, 164, 141); 
     margin-left: 100px;
-    margin-right: 100px}
+    margin-right: 100px;
+
+}
