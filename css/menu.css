@@ -1,7 +1,25 @@
 .logo{
-    color: rgb(181, 110, 110);
+    color: #b56e6e;
     text-decoration: none;  
 }
 h3{
     color: rgb(181, 110, 110); 
+}
+
+img{
+    border-style: ridge;
+    border-radius: 25px;
+    border: 2px solid #b56e6e;
+}
+
+p{
+    padding-top: 20px;
+    margin: 0px;
+    margin-right: 100px;
+}
+
+h6{
+    color: rgb(91, 123, 105);
+    margin-left: 100px;
+    padding-bottom: 50px;
 }
