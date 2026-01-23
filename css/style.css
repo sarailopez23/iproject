@@ -5,12 +5,28 @@ body {
 }
 
 
-h1 {
-    color: rgb(181, 110, 110);
-    margin-left: 100px;
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+     margin-left: 100px;
+    overflow: hidden;
 }
-img{
-    margin-left: 100px;
+
+.navbar a{
+    text-decoration: none;
+    color:  rgb(91, 123, 105);
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color:rgb(173, 186, 179);
+
+}
+
+.navbar li{
+    float: right;
 }
 
 h5{
