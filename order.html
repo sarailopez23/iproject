@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,6 +29,55 @@
 <header class="container">
 
 </header>
+
+<h2>Place an Order!</h2>
+<h6>Make sure to fill out all the fields.</h6>
+<section class="container">
+    <form>
+        <h3>Your Information</h3>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <label for="Phone-Number">Phone Number:</label><br>
+        <input type="text" id="Phone-Number" name="Phone-Number" required><br><br>  
+       
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <h3>Drink Selection</h3>
+        <label for="drink">Select Drink:</label><br>
+        <select id="drink" name="drink" required>
+            <option value="classic">Classic Matcha Latte</option>
+            <option value="horchata">Horchata Matcha Latte</option>
+            <option value="strawberry">Strawberry Matcha Latte</option>
+            <option value="taro">Taro Matcha Latte</option>
+            <option value="mango">Mango Matcha Latte</option>
+            <option value="rose">Rose Matcha Latte</option>
+        </select><br><br>
+
+         <label for="sweetness">Sweetness Level:</label><br>
+        <select id="sweetness" name="sweetness" required>
+            <option value="recommended">Recommended Sweetness</option>
+            <option value="less">Less Sweet</option>
+            <option value="more">More Sweetness</option>
+            <option value="no-added">No Added Sweetness</option>
+        </select><br><br>
+
+        <label for="milk">Milk Type:</label><br>
+        <select id="milk" name="milk" required>
+            <option value="Regular">Regular Milk</option>
+            <option value="oat">Oat Milk</option>
+            <option value="Almond">Almond Milk</option>
+            <option value="Coconut">Coconut Milk</option>
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <input type="submit" value="Submit Order">
+    </form>
+
 <footer>
     <p>&copy; 2026 ConAmor Co. | This is a fictional site for a Matcha Bar</p>
   </footer>

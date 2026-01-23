@@ -2,3 +2,23 @@
     color: rgb(181, 110, 110);
     text-decoration: none;  
 }
+
+h6{
+    color: rgb(91, 123, 105);
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+
+label{
+    color: rgb(181, 110, 110);
+}
+
+h3{
+    color: rgb(181, 110, 110);
+}
+
+footer{
+    padding-top: 30px;
+    margin: 0px;
+    text-align: left;
+}
