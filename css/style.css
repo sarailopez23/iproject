@@ -6,29 +6,16 @@ body {
 
 }
 
-
-.navbar ul{
-    list-style-type: none;
-    padding: 0px;
-     margin-left: 100px;
-    overflow: hidden;
-}
-
-.navbar a{
-    text-decoration: none;
-    color:  rgb(91, 123, 105);
-    padding: 14px 20px;
+.header-nav-menu{
+    margin: 0
+    padding: 0;
+    list-style: none;
     display: flex;
-    text-align: center;
+    justify-content: flex-end;
 }
 
-.navbar a:hover{
-    background-color:rgb(173, 186, 179);
-
-}
-
-.navbar li{
-    float: right;
+.header-menu-item{
+    margin: 0 40px 0 0;
 }
 
 h5{
