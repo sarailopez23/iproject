@@ -31,7 +31,7 @@
 </header>
 
 <h2>Place an Order!</h2>
-<h6>Make sure to fill out all the fields.</h6>
+<p>Make sure to fill out all the fields.</p>
 <section class="container">
     <form>
         <h3>Your Information</h3>
@@ -48,6 +48,7 @@
         <h3>Drink Selection</h3>
         <label for="drink">Select Drink:</label><br>
         <select id="drink" name="drink" required>
+            <option value="">Select a drink</option>
             <option value="classic">Classic Matcha Latte</option>
             <option value="horchata">Horchata Matcha Latte</option>
             <option value="strawberry">Strawberry Matcha Latte</option>
@@ -58,6 +59,7 @@
 
          <label for="sweetness">Sweetness Level:</label><br>
         <select id="sweetness" name="sweetness" required>
+            <option value="">Select sweetness level</option>
             <option value="recommended">Recommended Sweetness</option>
             <option value="less">Less Sweet</option>
             <option value="more">More Sweetness</option>
@@ -66,6 +68,7 @@
 
         <label for="milk">Milk Type:</label><br>
         <select id="milk" name="milk" required>
+            <option value="">Select milk type</option>
             <option value="Regular">Regular Milk</option>
             <option value="oat">Oat Milk</option>
             <option value="Almond">Almond Milk</option>
@@ -77,7 +80,7 @@
 
         <input type="submit" value="Submit Order">
     </form>
-
+</section>
 <footer>
     <p>&copy; 2026 ConAmor Co. | This is a fictional site for a Matcha Bar</p>
   </footer>
